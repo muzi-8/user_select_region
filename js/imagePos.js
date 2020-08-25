@@ -104,11 +104,12 @@ $(function (){
          $("#img-box").text("已完成标注. 谢谢!");
          var content = JSON.stringify(imageRecordObj); // 对象转化成json字符串.
          var blob = new Blob([content], {type: "text/plain;charset=utf-8"});
-         var timeStamp = Date.parse(new Date());
+         // var timeStamp = Date.parse(new Date());
 
-         var localTime = timeFormat(timeStamp);
-         localTime = localTime.replace(/-/g, '_');
-         saveAs(blob, localTime + "_user_result.json");
+         // var localTime = timeFormat(timeStamp);
+         // localTime = localTime.replace(/-/g, '_');
+         // saveAs(blob, localTime + "_user_result.json");
+         saveAs(blob,"user_result.json");
        }
 
     });
