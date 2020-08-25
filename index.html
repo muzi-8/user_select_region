@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>图片标注</title>
+        <style>
+            #next-button{
+              max-width: 100px;
+              /*height: 20px;*/
+              border-style:solid grey;
+              border-width:1px;
+              background-color: #ccc;
+              text-align:center;
+              margin: 15px 0px 0px 55px;
+            }
+            .project-box{
+                margin: 10% 0 0 45%;
+                border-color: #ccc;
+                /*border-bottom: 1px;*/
+            }
+            .img-label{
+              margin: 0px 0px 5px 70px;
+            }
+        </style>
+    </head>
+    <body>
+        <!--X:<input id="xxx" type="text" />  Y:<input id="yyy" type="text" />-->
+        <div id="body-box">
+            <div class="project-box">
+                 <div class="img-label">XXX</div>
+                 <div id="img-box"></div>
+                 <div id="next-button"><span>Next</span></div>
+            </div>
+        </div>
+
+        <script src="jslib/jquery.min.js"></script>
+        <script src="jslib/FileSaver.js"></script>
+        <script src="jslib/d3.v4.min.js"></script>
+        <script src="js/imagePos.js"></script>
+    </body>
+</html>

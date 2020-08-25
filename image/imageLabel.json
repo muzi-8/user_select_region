@@ -1,0 +1,7 @@
+{ "imgName": ["ILSVRC2012_val_00000067.JPEG", "ILSVRC2012_val_00002070.JPEG", "ILSVRC2012_val_00001952.JPEG"],
+  "imgLabel": {
+      "ILSVRC2012_val_00000067.JPEG": "elephant",
+      "ILSVRC2012_val_00002070.JPEG": "giraffe",
+      "ILSVRC2012_val_00001952.JPEG": "airplane"
+  }
+}
